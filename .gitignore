@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# Pytest
+.pytest_cache/
+
+# Environment files
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Wazuh / local credentials
+*.key
+*.pem
+
+# Generated SOC incidents and reports
+incidents/*.json
+incidents/reports/
